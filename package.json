@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-ai-chat",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@ai-sdk/vue": "^2.0.113",
+    "@libsql/client": "^0.15.15",
+    "@nuxt/ui": "4.2.1",
+    "@nuxthub/core": "^0.10.1",
+    "@nuxtjs/mdc": "^0.19.1",
+    "ai": "^5.0.113",
+    "drizzle-kit": "^0.31.8",
+    "drizzle-orm": "^0.45.1",
+    "nuxt": "^4.2.2",
+    "typescript": "^5.6.3",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.4",
+    "zod": "^4.2.1"
+  }
+}
