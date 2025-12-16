@@ -3,18 +3,18 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: [
-    '@nuxt/ui', 
+    '@nuxt/ui',
     '@nuxtjs/mdc',
-    '@nuxthub/core'
+    '@nuxthub/core',
   ],
   css: ['~/assets/css/main.css'],
   hub: {
-    db: 'sqlite'
+    db: 'sqlite',
   },
 
   mdc: {
     headings: {
-      anchorLinks: false // Disable anchor links in AI responses
-    }
+      anchorLinks: false, // Disable anchor links in AI responses
+    },
   },
 })
