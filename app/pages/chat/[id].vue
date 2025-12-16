@@ -54,6 +54,9 @@ onMounted(() => {
 
 <template>
   <UDashboardPanel :ui="{ body: 'p-0 sm:p-0' }">
+    <template #header>
+      <ChatsHistory />
+    </template>
     <template #body>
       <UContainer class="min-h-dvh flex flex-col py-4 sm:py-6">
         <UChatMessages
