@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@ai-sdk/vue": "^2.0.113",
-    "@libsql/client": "^0.15.15",
+    "@libsql/client": "^0.17.0",
     "@nuxt/ui": "4.2.1",
     "@nuxthub/core": "^0.10.1",
     "@nuxtjs/mdc": "^0.19.1",
